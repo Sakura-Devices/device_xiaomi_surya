@@ -115,7 +115,8 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     DevicesOverlay \
-    DevicesAndroidOverlay
+    DevicesAndroidOverlay \
+    NoCutoutOverlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
