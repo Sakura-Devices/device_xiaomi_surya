@@ -9,13 +9,18 @@ PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,org.codeaurora.snapcam \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
-# Camera
+# Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
 
 # Dex2oat
 PRODUCT_PRODUCT_PROPERTIES += \
      dalvik.vm.dex2oat64.enabled=true
+
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.low_ram=false \
+    ro.lmk.log_stats=true
 
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
