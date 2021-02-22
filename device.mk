@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
+# Add Prebuilt Apps
+PRODUCT_PACKAGES += \
+    QPGallery
+
 # Device Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
