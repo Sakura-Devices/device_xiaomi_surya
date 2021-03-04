@@ -134,23 +134,15 @@ void set_device_props(const std::string fingerprint, const std::string descripti
 
 void vendor_load_properties() {
     std::string hwname = GetProperty("ro.boot.hwname", "");
-    char const fp[] = "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys";
-    char const fp_desc[] = "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys";
-    char nfc_prop[] = "ro.hw.nfc";
+
+    std::string fingerprint = "google/sunfish/sunfish:11/RQ2A.210305.006/7119741:user/release-keys";
+    std::string description = "sunfish-user 11 RQ2A.210305.006 7119741 release-keys";
 
     if (hwname == "surya") {
-        set_device_props(
-                fp,
-                fp_desc,
-                "POCO", "surya", "M2007J20CG");
-        property_override(nfc_prop, "1");
+        set_device_props(fingerprint, description, "POCO", "surya", "POCO X3 NFC");
         property_override("ro.product.mod_device", "surya_global");
     } else if (hwname == "karna") {
-        set_device_props(
-                fp,
-                fp_desc,
-                "POCO", "karna", "M2007J20CI");
-        property_override(nfc_prop, "0");
+        set_device_props(fingerprint, description, "POCO", "karna", "POCO X3");
         property_override("ro.product.mod_device", "surya_in_global");
     }
 
