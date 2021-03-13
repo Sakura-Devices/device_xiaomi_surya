@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 
+# Calculator
+PRODUCT_PACKAGES += \
+    ExactCalculator
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
