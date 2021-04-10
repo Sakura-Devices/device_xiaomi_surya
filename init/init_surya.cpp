@@ -135,8 +135,8 @@ void set_device_props(const std::string fingerprint, const std::string descripti
 void vendor_load_properties() {
     std::string hwname = GetProperty("ro.boot.hwname", "");
 
-    std::string fingerprint = "google/sunfish/sunfish:11/RQ2A.210305.006/7119741:user/release-keys";
-    std::string description = "sunfish-user 11 RQ2A.210305.006 7119741 release-keys";
+    std::string fingerprint = "google/sunfish/sunfish:11/RQ2A.210405.005/7181113:user/release-keys";
+    std::string description = "sunfish-user 11 RQ2A.210405.005 7181113 release-keys";
 
     if (hwname == "surya") {
         set_device_props(fingerprint, description, "POCO", "surya", "POCO X3 NFC");
