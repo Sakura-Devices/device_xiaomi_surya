@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 Wave-OS
+# Copyright (C) 2021 LineageOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_surya.mk
+    $(LOCAL_DIR)/lineage_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_surya-user \
-    wave_surya-userdebug \
-    wave_surya-eng
+    lineage_surya-user \
+    lineage_surya-userdebug \
+    lineage_surya-eng
