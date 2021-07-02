@@ -802,19 +802,21 @@ vendor/lib64/unnhal-acc-hvx.so|c0892ac04f9c3cb9bb25e240ff22ced3522c31e0
 vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 
 # Perf - from surya
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|98654005d78109d44fc1b53a41803184dd35939a
-vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
-vendor/lib/libperfconfig.so|8c9e4923dc35c383e16aabcd20b10967bd823999
-vendor/lib/libperfgluelayer.so|d9729eff2b6da7a3b65f6f985cf77dbec0dab6a3
-vendor/lib/libqti-perfd-client.so|5d3e9fff53cef7e077996311205c74963fce54c3
-vendor/lib/libqti-perfd.so|478d8b235f30587574206ebfa782bc62c08314d2
-vendor/lib/libqti-util.so|72cc63fd039cf4aa7c6b62f53a1f2e4bada05f42
-vendor/lib64/libperfconfig.so|7fecdca5becc31bf0298bc21e026c13da5831c8b
-vendor/lib64/libperfgluelayer.so|0bf84cafdc9922ad5b40d2a4aca05bd4fcd637be
-vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
-vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
-vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|88fea0e630507d28e0cf994b0a08d1284b544ae0
+vendor/bin/msm_irqbalance|bcc114819bd50bfbefe2dfcb9f815f9959cdad44
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
+vendor/lib64/libperfconfig.so|a6417bae7c270aa55746c21fa553f8638e2646e7
+vendor/lib64/libperfgluelayer.so|ab07f0a6ded333726a9c5ae37a38dc91881fa11e
+vendor/lib64/libperfioctl.so|971d8108b9a6d5854be68792dc19a16c37734f59
+vendor/lib64/libqti-perfd-client.so|b6881ca5b77335490bd91c6803feb5d31cbf8e92
+vendor/lib64/libqti-perfd.so|31cb7446a5a1e30b0416f388ebc8bfc3f3223e6e
+vendor/lib64/libqti-util.so|e7e1db6dbd6cfe955a849e758faea6433e3491a1
+vendor/lib/libperfconfig.so|e51ef56d45b31fe22255140c36c62d5f26932658
+vendor/lib/libperfgluelayer.so|3334930730e67c07afc1b92029c9890ea37b7aa4
+vendor/lib/libperfioctl.so|63f04b528f33a86ea5bf1f1e322f40a54ccc83b0
+vendor/lib/libqti-perfd-client.so|64962dd4d5e8b7fd11927c70778f79ea1cd140dd
+vendor/lib/libqti-perfd.so|2be89db2f47d7c3fd55b845f02ce5caa41ea5db4
+vendor/lib/libqti-util.so|aad9fa70224a7d0c806790e4a274f3a86cd84316
 
 # Peripheral - from LA.UM.9.1.r1-09600-SMxxx0.0
 vendor/bin/pm-proxy|c36785c811db9af0d6d938cdbc6b90dedaaf706e
@@ -1143,10 +1145,10 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so|f98b5eef4e9851ee4ff9546685e9c2fc2b
 
 # Thermal - from surya
 vendor/bin/mi_thermald|2cb2d46219c6bc7005b61a6960b9f674049a586c
-vendor/bin/thermal-engine|008f997c2bce7f1a8143be59ae960e9a284c8117
+vendor/bin/thermal-engine|7dd2cf5200b87c88dcfd3d18239bd9968efedb3c
 vendor/etc/thermal-4k.conf|1648b94b29fcbacd65a5695eccae404274d9e1e0
 vendor/etc/thermal-arvr.conf|33cbfff90543ceaedf7c4f0d45caf11e9ef9a52f
-vendor/etc/thermal-camera.conf|54c322053637897d84faad8627e042fa59a480ed
+vendor/etc/thermal-camera.conf|6882a03c248eb3462bcc2f40754ada2e3d069f08
 vendor/etc/thermal-chg-only.conf|d7affb7547a6f07267b8dddd9d7e549f9fdeb498
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 vendor/etc/thermal-map.conf|6072eb7de179825c85d5423c49069e3999810e3f
@@ -1155,7 +1157,8 @@ vendor/etc/thermal-normal.conf|e8b6686ff365e4f6860cb23c37a7fd6cefe3b946
 vendor/etc/thermal-phone.conf|e736e2bf8425977dd611098efcf14fa13a3ad3b5
 vendor/etc/thermal-tgame.conf|d30fdf9ae2cce80a05a3ccd86d8798466d4cdb80
 vendor/etc/thermald-devices.conf|eaa11ec5435404df861a76e5c857e93028ed7ef4
-vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
+vendor/lib64/libthermalclient.so|41274c82e1a472d12b2ebcb4156f7f77b109efa8
+vendor/lib64/libthermalfeature.so|039c92ea5b7532568c63035a51426d9801eaa097
 
 # Time - from LA.UM.9.1.r1-10200-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
