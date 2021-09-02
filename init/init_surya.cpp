@@ -107,9 +107,6 @@ void vendor_load_properties() {
 
     std::string model;
     std::string device;
-    std::string fingerprint;
-    std::string description;
-    std::string mod_device;
 
     if (region == "THAI" || region == "THAI_PA") {
         model = "M2007J20CT";
@@ -124,13 +121,8 @@ void vendor_load_properties() {
         }
     }
 
-    fingerprint = "POCO/surya_eea/surya:11/RKQ1.200826.002/V12.5.2.0.RJGEUXM:user/release-keys";
-    description = "surya_eea-user 11 RKQ1.200826.002 V12.5.2.0.RJGEUXM release-keys";
-
-    set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
     set_ro_product_prop("model", model);
-    property_override("ro.build.description", description.c_str());
 
     load_dalvik_properties();
 
